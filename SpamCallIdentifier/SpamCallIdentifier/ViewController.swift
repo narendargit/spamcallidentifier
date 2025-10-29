@@ -727,7 +727,7 @@ class ViewController: UIViewController {
             let alert = UIAlertController(title: "Add/Remove Number", message: "Enter phone number to block/remove", preferredStyle: .alert)
             
             alert.addTextField { textField in
-                textField.placeholder = "+62XXXXXXXXX"
+                textField.placeholder = "+91XXXXXXXXX"
                 textField.keyboardType = .phonePad
             }
             
